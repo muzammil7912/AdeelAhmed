@@ -1,17 +1,20 @@
-/* © Design by UXADEEL */
+/* About ME */
 
 position: absolute;
-width: 200px;
-height: 24px;
-left: 29.07px;
-top: 30.63px;
+width: 65px;
+height: 20px;
+left: 1094.02px;
+top: 32.63px;
 
-font-family: '  ';
+font-family: 'Mluvka';
 font-style: normal;
 font-weight: 500;
-font-size: 18.7324px;
-line-height: 24px;
-/* identical to box height */
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+display: flex;
+align-items: center;
+text-transform: capitalize;
 
 color: #000000;
 

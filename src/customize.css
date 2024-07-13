@@ -1,0 +1,28 @@
+
+
+:root{
+    --secondary-color:#88CBB4;
+}
+
+body {
+    font-size: 1rem;
+
+}
+
+.headerRight a::before{
+content: '';
+position: absolute;
+left: -1.3rem;
+top: 50%;
+transform: translateY(-50%);
+width: .7rem;
+height: .7rem;
+background: var(--secondary-color);
+transition: .3s;
+opacity: 0;
+border-radius: 50%;
+}
+
+.headerRight a:hover::before{
+    opacity: 1;
+}
